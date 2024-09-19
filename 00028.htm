@@ -1,0 +1,33 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Sample game for iPhone-iPodTouch</title>
+<meta name='viewport' id='viewport' content='width=320;initial-scale=1.0;minimum-scale=1.0;maximum-scale=1.0;user-scalable=false;'>
+<meta name='GENERATOR' content='Adventure Maker version 4.7.1'>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+<script>
+var remainingElementsToLoad = 2;
+function elementLoaded(){
+  remainingElementsToLoad--;
+  if (remainingElementsToLoad == 0){
+    parent.showNextFrame();
+  }
+}
+var hotspotsCount = 1;
+var hotspot;
+hotspot = new Array;
+hotspot[1] = new parent.hotspotClass('00030.htm','','',new Array('v00001','v00002','v00003','v00004','v00005','v00006','v00007'),null,null,null,null,"");
+</script>
+</head>
+<body bgcolor='000000' onLoad='parent.initializeFrame();'>
+<div id='textBackgroundPreload' style='position:absolute; left:0px; top:0px;'><img width=1 height=1 src='textbackground.png' /></div>
+<div id='hourglassPreload' style='position:absolute; left:0px; top:0px;'><img width=1 height=1 src='hourglass.png' /></div>
+<div id='background' style='position:absolute; left:0px; top:0px; width:320px; height:416px;'><img src='00022.a' onLoad='elementLoaded();' /></div>
+<div id='hotspot1' style='position:absolute; left:35px; top:292px; width:250px; height:94px;'><img id='hotspotImg1' src='transparent.gif' width=250 height=94 onClick='parent.doHotspotClick(1);' onLoad='elementLoaded();' /></div>
+<div id='textBackground' style='position:absolute; left:0px; top:389px; visibility:hidden;'><img width=320 height=27 src='textbackground.png' /></div>
+<div id='message' style='position:absolute; color:#FFFFFF; text-align:center; left:0px; top:396px; width:320px; height:32px; visibility:hidden'>_</DIV>
+<div id='hourglass' style='position:absolute; left:144px; top:176px; visibility:hidden;'><img width=32 height=64 src='hourglass.png' /></div>
+</body>
+</html>
